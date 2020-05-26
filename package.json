@@ -1,0 +1,28 @@
+{
+  "name": "MyFirstTask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JagadeeshAleti/MyFirstTask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JagadeeshAleti/MyFirstTask/issues"
+  },
+  "homepage": "https://github.com/JagadeeshAleti/MyFirstTask#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
