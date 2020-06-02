@@ -4,6 +4,7 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
+    background-color: lightgray;
 
     display: flex;
     flex-direction: column;
@@ -15,8 +16,8 @@ body {
 }
 
 footer {
-    color: #888888;
-    border-top: 1px solid red;
+    color: black;
+    border-top: 3px solid darkcyan;
     margin-top: 16px;
     padding: 16px 0;
 }
@@ -27,23 +28,11 @@ header {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 75px;
     margin-bottom: 16px;
 }
 
-.portrait {
-    width: 250px;
-}
-
 input {
-    border: 1px solid #cccccc;
-    padding: 8px;
-}
-
-button {
-    cursor: pointer;
-    border: 1px solid #888888;
-    background: #888888;
-    color: white;
-    padding: 8px;
+    border: 3px solid darkcyan;
+    padding: 16px;
 }

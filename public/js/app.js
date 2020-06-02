@@ -9,7 +9,6 @@ message.textContent = ''
 todoForm.addEventListener('submit', (e) => {
     e.preventDefault()
     const task = search.value;
-
     if (!task) {
         message.textContent = 'Please enter some task todo'
     } else {
