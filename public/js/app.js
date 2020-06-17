@@ -46,7 +46,7 @@ todoForm.addEventListener('submit', (e) => {
        })
        .then((res) => res.json())
        .then((data) => {
-           console.log(data)
+           //console.log(data)
            let output = '<h2 style="color: green;text-decoration: underline">List Of Tasks : </h2>'
    
            data.forEach(function (userTask) {
